@@ -8,7 +8,7 @@ let server = http.createServer(function(request, response){
 		response.end();
 	} else if(request.url =='/profile'){
 		response.writeHead(200, {'Content-type': 'text/html'});
-		response.write('<html><body><h1>Hello Class</h1><p>I aint no Human</p></body></html>')
+		response.write('<html><body><h1>Hello DumbAss</h1><p>I aint no Human</p></body></html>')
 		response.end();
 	} else {
 		response.writeHead(404, {'Content-type': 'text/html'});
